@@ -9,12 +9,12 @@
 #
 # url is site domain, full URL to the production location of your collection
 # on GitHub Pages follows the pattern username.github.io
-url: https://eugestumm.github.io
+url: https://telombardi.github.io/FLDH_CB_Remix
 # baseurl is path to location on the domain if necessary e.g. /digital/hjccc
 # on GitHub Pages it is your github repository's name prefixed with a /
-baseurl: /CollectionBuilder-Remix
+baseurl: /FLDH_CB_Remix
 # location of code, the full url to your github repository
-source-code: https://github.com/eugestumm/CollectionBuilder-Remix
+source-code: https://github.com/telombardi/FLDH_CB_Remix/tree/main
 
 ##########
 # SITE SETTINGS
@@ -23,14 +23,10 @@ source-code: https://github.com/eugestumm/CollectionBuilder-Remix
 title: 'CollectionBuilder-Remix: Collection Sample'
 
 # tagline, a short phrase that will appear throughout the site in the top banner
-tagline: Based on Gender Inclusive Spanish Digital Archive
+tagline: Sample Project for FLDH2026
 # description appears in meta tags and other locations
 # this description might appear in search result lists, keep around 160 characters max
-description: "This collection is a pedagogical sample based on the <a href=\"https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/\"\
-  >Gender-Inclusive Spanish Digital Archive</a> to help users familiarize themselves
-  with the functions of CollectionBuilder-Remix. To learn how to use this project,
-  check out the <a href=\"https://github.com/eugestumm/CollectionBuilder-Remix/wiki/1.-Home\"\
-  >project wiki</a>."
+description: "My Description"
 # creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
 author: Euge Stumm
 
