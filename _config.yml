@@ -1,0 +1,109 @@
+##########
+# collectionbuilder-gh
+# Jekyll Digital Collection Generator, designed for GitHub Pages
+# https://github.com/CollectionBuilder/collectionbuilder-gh
+##########
+
+##########
+# URL VARIABLES [optional if using GitHub Pages!]
+#
+# url is site domain, full URL to the production location of your collection
+# on GitHub Pages follows the pattern username.github.io
+url: https://eugestumm.github.io
+# baseurl is path to location on the domain if necessary e.g. /digital/hjccc
+# on GitHub Pages it is your github repository's name prefixed with a /
+baseurl: /CollectionBuilder-Remix
+# location of code, the full url to your github repository
+source-code: https://github.com/eugestumm/CollectionBuilder-Remix
+
+##########
+# SITE SETTINGS
+#
+# title of site appears in banner
+title: 'CollectionBuilder-Remix: Collection Sample'
+
+# tagline, a short phrase that will appear throughout the site in the top banner
+tagline: Based on Gender Inclusive Spanish Digital Archive
+# description appears in meta tags and other locations
+# this description might appear in search result lists, keep around 160 characters max
+description: "This collection is a pedagogical sample based on the <a href=\"https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/\"\
+  >Gender-Inclusive Spanish Digital Archive</a> to help users familiarize themselves
+  with the functions of CollectionBuilder-Remix. To learn how to use this project,
+  check out the <a href=\"https://github.com/eugestumm/CollectionBuilder-Remix/wiki/1.-Home\"\
+  >project wiki</a>."
+# creator of the digital collection, to appear in meta tags; we typically use our GitHub usernames but feel free to just use your name
+author: Euge Stumm
+
+# Set up site language ids and display names. First language will be the site's default language
+site_languages:
+- lang_id: 'en'
+  lang_display: 'English'
+- lang_id: 'es'
+  lang_display: 'Español'
+  lang_site_title: 'CollectionBuilder-Remix: Colección de Demostración'
+  lang_site_tagline: Basado en el Archivo Digital de Español No Binario
+  lang_site_description: "Esta colección es una demostración pedagógica basada en
+    el <a href=\"https://eugestumm.github.io/gender-inclusive-spanish-digital-archive/\"\
+    >Archivo Digital de Español No Binario</a>, diseñada para ayudar a les usuaries
+    a familiarizarse con las funciones de CollectionBuilder-Remix. Para aprender a
+    usar este proyecto, consulte la <a href=\"https://github.com/eugestumm/CollectionBuilder-Remix/wiki/1.-Home\"\
+    >wiki del proyecto</a>."
+# Set paths, language ids, and permalinks for pages
+defaults:
+- scope:
+    path: 'es'
+  values:
+    permalink: /es/:basename
+    lang: 'es'
+- scope:
+    path: 'pages'
+  values:
+    lang: 'en'
+
+##########
+# COLLECTION SETTINGS
+#
+# Set the metadata for your collection (the name of the csv file in your _data directory that describes the objects in your collection) 
+# Use the filename of your CSV **without** the ".csv" extension! E.g. _data/demo-metadata.csv --> "demo-metadata"
+metadata: main-metadata
+
+
+##########
+# Site/Organization Branding 
+#   Uncomment these and enter information for your organization (replacing the CDIL links and name below) if you'd like to brand your site with a logo
+#
+#organization-name: "Arte Público Press"
+#organization-link: https://artepublicopress.com/
+#organization-logo-banner: /assets/img/APP_Logo_2019.png
+#organization-logo-nav: /assets/img/app_logo_white_sm.png
+
+
+##########
+# GOOGLE SERVICES [optional!]
+#
+# leave these blank or comment out to NOT include google code. See docs/google.md
+#
+# Add your google-analytics-id to automatically add the embed code, e.g. "G-123XXXXXX"
+# google-analytics-id:
+# to populate a Google CSE add the id, e.g. "002151703305773322890:1pu3smhw1t8"
+# google-cse-id: 
+
+##########
+# ROBOTS EXCLUDE
+#
+# set noindex to true if you do NOT want Google to index your site
+noindex: false
+
+##########
+# BUILD SETTINGS 
+#
+# Note: use environment variable on build command to include analytics
+# JEKYLL_ENV=production jekyll build
+# (this is done automatically by gh-pages build)
+#
+# ignore stuff
+exclude: [docs/, Rakefile, README.md, LICENSE, CITATION.cff, CODE_OF_CONDUCT.md, 
+    CONTRIBUTING.md]
+# compress CSS output
+sass:
+  style: compressed

@@ -1,0 +1,11 @@
+field,lang,index,display
+title,en,true,true
+title-es,es,true,true
+date,en;es,true,true
+description-en,en,true,true
+description-es,es,true,true
+subject-en,en,true,true
+subject-es,es,true,true
+location-en,en,true,false
+location-es,es,true,false
+creator,en;es,true,true

@@ -1,0 +1,14 @@
+translate_id_nav,stub,dropdown_parent
+nav-home,/
+nav-browse,/browse.html
+nav-use-of-neomorphemes-over-time,/neomorphemes-over-time.html,nav-visualization
+nav-tags
+nav-subjects,/subjects.html,nav-tags
+nav-locations,/locations.html,nav-tags
+nav-map,/map.html
+nav-timeline,/timeline.html
+nav-data,/data.html
+nav-about,/about.html
+nav-learn
+nav-gender-in-spanish,https://www.genderinlanguage.com/spanish,nav-learn
+nav-on-gender-inclusive-spanish,https://www.genderinlanguage.com/spanish/how,nav-learn
